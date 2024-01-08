@@ -11976,6 +11976,120 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #0f0f0f;
+  background-color: black;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo a {
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+div ul {
+  display: flex;
+}
+
+.center li a {
+  color: rgb(101, 101, 119);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.white {
+  color: white !important;
+}
+
+.center a:hover {
+  transition: 0.7s;
+  color: white;
+}
+
+div ul li {
+  margin: 20px;
+}
+
+.talk a {
+  color: white;
+  font-size: 22px;
+  border-radius: 12px;
+  background-color: rgb(101, 101, 119);
+  padding: 15px 35px 15px 35px;
+  text-decoration: none;
+}
+
+.talk a:hover {
+  transition: 0.5s;
+  color: rgb(101, 101, 119);
+  background-color: white;
+}
+
+.container {
+  height: 1000px;
+  width: 100%;
+}
+
+.ehni {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.david {
+  display: flex;
+  border-radius: 24px;
+  background-color: rgb(20, 20, 22);
+  margin-left: 80px;
+  height: 400px;
+}
+
+.tsagaan {
+  color: white !important;
+  font-size: 42px;
+}
+
+.henderson {
+  margin: 50px 0px 50px 0px;
+  padding: 50px;
+}
+
+.henderson p {
+  color: rgb(143, 143, 143);
+  padding: 10px;
+}
+
+.Iam {
+  font-size: 24px;
+}
+
+.featured {
+  background-color: rgb(20, 20, 22);
+  height: 30px;
+  width: 100%;
+}
+
+.featured p {
+  color: white;
+}
+
+.both {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
